@@ -29,11 +29,11 @@ placed in data/vid.mp4
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/MotionSense.git
+   git clone https://github.com/knkhayam/MotionSense.git
    cd MotionSense
 2. Install dependencies
    ```bash
-   pip install opencv-python numpy
+   pip install -r requirements.txt
 3. Usage
    ```bash
    python motion_sense.py
