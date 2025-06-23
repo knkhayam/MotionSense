@@ -2,17 +2,23 @@
 
 **MotionSense** is a lightweight, real-time motion detection system implemented in Python using OpenCV. It runs efficiently on edge devices with basic GPUs and robustly detects meaningful motion by filtering out noise and minor movements. The system overlays motion intensity as a heatmap on live camera feed and provides an alert trigger when motion exceeds a configurable threshold.
 
+# Demo
+![MotionSense Demo](motion_sense_output.gif)
 
+
+# Testing
+I used a generic public video available online on the internet to experimet this. 
+placed in data/vid.mp4
 
 ---
 
 ## Features
 
-- Real-time motion detection with live camera feed.
+- Real-time motion detection with live camera feed/or Video for example.
 - Noise-resistant detection using optical flow and Gaussian smoothing.
 - Motion intensity heatmap overlay for visual feedback.
 - Configurable motion strength and minimum area thresholds.
-- Trigger alert when motion covers a configurable percentage of the frame.
+- Trigger alert when motion covers a configurable percentage of the frame. such as in Crowd.
 - Displays live FPS on the video.
 - Lightweight and optimized for edge devices.
 
